@@ -34,7 +34,7 @@ const FooterComp = () => {
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="/#about-section">About</Link></li>
                         <li><Link href="/#main-category-section">Category</Link></li>
-                        <li><Link href="#">Guide Book</Link></li>
+                        <li><Link href="https://drive.google.com/file/d/1JljliDQlURbFn5K1idLiEF_nU_fuxTTF/view?usp=sharing">Guide Book</Link></li>
                         <li><Link href="/#contact-section-wrapper">Contact</Link></li>
                     </ul>
                 </div>
