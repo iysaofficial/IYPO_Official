@@ -40,7 +40,7 @@ const NewsletterComp: React.FC = () => {
             <div className="newsletter-container">
                 <div className="newsletter-box">
                     <h2>Subscribe to <br /> Our Newsletter</h2>
-                    <form action="https://formspree.io/f/xoqgjrok" method="POST" name="regist-form">
+                    <form action="" method="POST" name="regist-form">
                         <input type="email" placeholder="Enter Email Address" name="Email"/>
                         <button type="submit" className="submit-button">Subscribe</button>
                     </form>
