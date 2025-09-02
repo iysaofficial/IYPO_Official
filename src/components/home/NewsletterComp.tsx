@@ -17,11 +17,11 @@ const NewsletterComp: React.FC = () => {
             method: "POST",
             body: new FormData(form),
           });
-          alert("Data berhasil dikirim!");
+          alert("Data sent successfully!");
           form.reset();
         } catch (error) {
           console.error("Error:", error);
-          alert("Gagal mengirim data.");
+          alert("Failed to send data.");
         }
       };
 
