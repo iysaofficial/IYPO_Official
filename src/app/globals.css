@@ -658,7 +658,7 @@
     border: none;
 }
 
-.newsletter-box form input[type="submit"]{
+.newsletter-box form .submit-button{
     border-radius: 10px;
     font-size: 15px;
     font-weight: 500;
