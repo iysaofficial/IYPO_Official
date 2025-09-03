@@ -1,6 +1,38 @@
+"use client";
+import React, { useEffect } from "react";
 import Link from "next/link"
 
 const ContactComp = () =>{
+    useEffect(() => {
+        const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzdgUOy_s6zjJQTgqXQ7GX3H1_w6TvWq1hsBZgH0mSREWt3qXCKA34-qo74-jfDVbHE/exec";
+
+        const form = document.forms.namedItem("home-contact");
+
+        if (form) {
+        const handleSubmit = async (e: Event) => {
+            e.preventDefault();
+            try {
+            await fetch(scriptURL, {
+                method: "POST",
+                body: new FormData(form),
+            });
+            alert("Message sent successfully!");
+            form.reset();
+            } catch (error) {
+            console.error("Error:", error);
+            alert("Failed to send Message.");
+            }
+        };
+
+        form.addEventListener("submit", handleSubmit);
+
+        // cleanup listener
+        return () => {
+            form.removeEventListener("submit", handleSubmit);
+        };
+        }
+    }, []);
     return(
         <>
         <section id="contact-section-wrapper">
@@ -34,19 +66,19 @@ const ContactComp = () =>{
                     </ul>
                 </div>
                 <div className="contact-form-wrap">
-                    <form action="https://formspree.io/f/xyyroqvw" method="POST">
+                    <form action="" method="POST" name="home-contact">
                         <h2 className="contact-form-title">Send us a message</h2>
                         <div className="contact-form-fields">
                             <div className="contact-form-group">
-                                <input type="text" name="name" className="fname" placeholder="Enter your name"/>
+                                <input type="text" name="Name" className="fname" placeholder="Enter your name"/>
                             </div>
                           
                             <div className="contact-form-group">
-                                <input type="email" name="email" className="email" placeholder="Enter your email"/>
+                                <input type="email" name="Email" className="email" placeholder="Enter your email"/>
                             </div>
 
                             <div className="contact-form-group">
-                                <textarea name="message" id="" placeholder="Enter message"></textarea>
+                                <textarea name="Message" id="" placeholder="Enter message"></textarea>
                             </div>
                             <input type="submit" value={"Send message"} className="contact-submit-button"/>
                         </div>

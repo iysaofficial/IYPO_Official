@@ -7,7 +7,7 @@ const NewsletterComp: React.FC = () => {
     const scriptURL =
       "https://script.google.com/macros/s/AKfycbwfw1dAhzyY6p6crVCCuoEXzb_E7hBOi8cYuIBu_-JZzz2a25h-tCvT6Xd3dUH9Mx2fQA/exec";
 
-    const form = document.forms.namedItem("regist-form");
+    const form = document.forms.namedItem("home-newsletter");
 
     if (form) {
       const handleSubmit = async (e: Event) => {
@@ -40,7 +40,7 @@ const NewsletterComp: React.FC = () => {
             <div className="newsletter-container">
                 <div className="newsletter-box">
                     <h2>Subscribe to <br /> Our Newsletter</h2>
-                    <form action="" method="POST" name="regist-form">
+                    <form action="" method="POST" name="home-newsletter">
                         <input type="email" placeholder="Enter Email Address" name="Email"/>
                         <button type="submit" className="submit-button">Subscribe</button>
                     </form>
