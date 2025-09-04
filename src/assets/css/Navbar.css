@@ -211,7 +211,7 @@ header .navigation .menu{
     }
     .close-btn{
         position: absolute;
-        background: url(../../../public/assets/images/icon/close.png)no-repeat;
+        background: url(/assets/images/icon/close.png)no-repeat;
         width: 40px;
         height: 40px;
         background-size: 25px;
@@ -222,7 +222,7 @@ header .navigation .menu{
         cursor: pointer;
     }
     .menu-btn{
-        background: url(../../../public/assets/images/icon/menu-bar.png)no-repeat;
+        background: url(/assets/images/icon/menu-bar.png)no-repeat;
         width: 40px;
         height: 40px;
         background-size: 30px;
