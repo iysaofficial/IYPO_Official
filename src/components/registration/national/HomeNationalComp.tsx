@@ -11,7 +11,7 @@ const HomeNationalComp = () =>{
             </div>
             </div>
             <div className="registration-links">
-            <Link href="/registration/national/national-offline" className="registration-link">Offline Competition</Link>
+            {/* <Link href="/registration/national/national-offline" className="registration-link">Offline Competition</Link> */}
             <Link href="/registration/national/national-online" className="registration-link">Online Competition</Link>
             </div>
         </section>
