@@ -106,7 +106,7 @@ const NavbarComp = () =>{
                     {/* <li className='menu-item'><a href="#">FAQ</a></li> */}
                     {/* <li className='menu-item'><a href="#main-category-section">Category</a></li> */}
                     <li className='menu-item'>
-                        <Link href="https://drive.google.com/file/d/1JljliDQlURbFn5K1idLiEF_nU_fuxTTF/view?usp=sharing" 
+                        <Link href="https://drive.google.com/file/d/1GIe672c1HMq3ax90gHnz99l2xBl47bKv/view?usp=sharing" 
                             target='_blank'
                             rel="noopener noreferrer">
                                 Guide Book

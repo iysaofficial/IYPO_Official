@@ -2,19 +2,18 @@ import Link from "next/link"
 
 const HeroComp = () => {
     return(
-        <>
-       
+        <>       
         <section className="hero-section">
             <div className="hero-container">
                 <br />
                 <br />
                 <img src="/assets/images/logo/IYPO.png" alt=""/>
                 <h1>International Youth Physics Olympiad</h1>
-                {/* <p>Registration is now open for the International Youth Physics Olympiad! <br /> Join this prestigious event and gain an unforgettable experience!
-                </p> */}
+                <p>Registration is now open for the International Youth Physics Olympiad! <br /> Join this prestigious event and gain an unforgettable experience!
+                </p>
                 <br />
                 <br />
-                <Link href="#" className="registration-button">Coming Soon 2026</Link>
+                <Link href="/registration" className="registration-button">Registration</Link>
                 
                 <div className="hero-social-icon">
                     <br />

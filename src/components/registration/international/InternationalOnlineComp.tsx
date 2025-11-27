@@ -122,7 +122,7 @@ const InternationalOnlineComp: React.FC = () => {
           {/* INFORMASI UMUM SECTION */}
           <InformasiUmumSection />
 
-          <input type="hidden" name="PRICE" value="$50 USD" readOnly />
+          <input type="hidden" name="PRICE" value="$75 USD" readOnly />
 
           {/* Submit Button */}
           <div className="submit-container">
