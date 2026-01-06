@@ -13,7 +13,8 @@ const HeroComp = () => {
                 </p>
                 <br />
                 <br />
-                <Link href="/registration" className="registration-button">Registration</Link>
+                <button className="registration-button" disabled>Registration Closed</button>
+                {/* <Link href="/registration" className="registration-button">Registration</Link> */}
                 
                 <div className="hero-social-icon">
                     <br />
