@@ -45,7 +45,7 @@ const FooterComp = () => {
                             <span><i className='fa-solid fa-location-dot'></i></span><p><Link href="https://goo.gl/maps/9x18coXGCmSscKec6" target='_blank'>Jl. Kemang, Pasir Putih, Kecamatan. Sawangan, Kota Depok, Jawa Barat 16519</Link></p>
                         </li>
                         <li>
-                            <span><i className='fa-solid fa-phone'></i></span><p><Link href="https://wa.me/+6283870026877" target='_blank'>+6283870026877</Link></p>
+                            <span><i className='fa-solid fa-phone'></i></span><p><Link href="https://wa.me/+6288213248890" target='_blank'>+6288213248890</Link></p>
                         </li>
                         <li>
                             <span><i className='fa-solid fa-envelope'></i></span><p><Link href="mailto:iysa.olympiad@gmail.com" target='_blank'>iysa.olympiad@gmail.com</Link></p>
